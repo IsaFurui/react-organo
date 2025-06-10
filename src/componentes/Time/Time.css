@@ -1,0 +1,19 @@
+.time {
+    text-align: center;
+    padding: 32px;
+}
+
+.time h3 {
+    font-size: 32px;
+    border-bottom: 4px solid; /* Isso que dá o efeito de traçado abaixo do título */
+    display: inline-block; /* Deixa o traçado menor */
+    padding-bottom: 8px; /** Espaçamento entre o texto e o traçado */
+}
+
+.time .colaboradores {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se não houver espaço suficiente */
+    gap: 16px; /* Espaçamento entre os cartões */
+}
